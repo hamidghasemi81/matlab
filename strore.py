@@ -28,7 +28,7 @@ class Store:
         else:
             return 0
             
- 
+
     
     def create_store(self,name:str):
         ''' this def can create a new strore.'''
@@ -59,7 +59,7 @@ class Store:
                     json.dump(all_store,file,indent= 4)
                     return 1
             
-                   
+    
     def select_store(self,name_store:str):
         '''this def select store in the all stores.'''
         if not self.check_exist_file(self.path_store):
